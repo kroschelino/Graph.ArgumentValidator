@@ -2,17 +2,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>$(LibraryTargetFrameworks)</TargetFrameworks>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <PackageTags>HotChocolate.Validator, HotChocolate, GraphQL</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>2.1.1</Version>
+    <Version>2.3.0-preview</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="HotChocolate.Execution" Version="12.6.2" />
+    <PackageReference Include="HotChocolate.Execution" Version="13.0.5" />
   </ItemGroup>
 
   <ItemGroup>
